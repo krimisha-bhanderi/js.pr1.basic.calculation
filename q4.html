@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A program to find a gross salary</title>
+
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        var SALARY = parseInt(prompt("Enter your salary :- "));
+
+        var HRA = SALARY * 10 / 100;
+        var DA = SALARY * 5 / 100;
+        var TA = SALARY * 8 / 100;
+
+
+        var gross_salary = SALARY + HRA + DA + TA;
+
+        document.write(`<h2> Gross salary is :- ${gross_salary} </h1>`);
+
+    </script>
+
+</body>
+</html>
